@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: #2a3136;
+    font-family: "Open Sans", sans-serif;
+}
+
+.courseInformation {
+    margin-top: 100px;
+    padding: 2%;  
+}
+
+#secondCourseInformation {
+    margin-top: 0px;
+    align-items: start;
+}
+
+#main {
+    margin-top: 100px;   
+}
+
+h1 {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2a3136;
+    text-align: center;
+    border-bottom: black 1px solid;
+    margin: 0;
+    padding: 2%;
+    color: white;
+}
+
+
+.infoText {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2%;
+    background-color: #005ba1;
+    color: white;
+    font-size: 16px;
+}
+
+.infoIMG {
+    width: 100%;
+}
+
+
+#gathering {
+    padding: 1%;
+    margin-bottom: 1%;
+    
+    
+}
+
+.citation {
+    text-align: center;
+    background-color: rgb(216, 186, 14);
+    color: #2a3136;
+    padding: 2%;
+    font-size: 26px;
+}
+
+#details {
+    
+    color: white;
+    padding: 10px;
+    
+}
+
+#end {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+#marieIMG {
+    width: 100%;
+}
+
+#marie {
+    width: 100%;
+}
+
+footer {
+    margin: 20px;
+    color:white;
+    text-align: right;
+}
+
+#blue {
+     background-color: #005ba1;
+}
+
+@media (min-width: 1024px) {
+    
+    .courseInformation {
+        align-items: flex-end;
+        display: flex;
+    }
+
+    .infoIMG {
+        width: 52%;  
+        border: black 1px solid;
+    }
+
+    .infoText {
+        font-size: 18px;
+        margin: 0 5%;
+    }
+
+    #details {
+    display: flex;
+    background-color: #005ba1;
+    }
+
+    #gathering {
+        margin-right: 20%;
+    }
+
+}
