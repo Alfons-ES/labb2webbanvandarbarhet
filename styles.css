@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #2a3136;
     font-family: "Open Sans", sans-serif;
+    line-height: 2;
 }
 
 .courseInformation {
@@ -38,7 +39,7 @@ h1 {
     padding: 2%;
     background-color: #005ba1;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .infoIMG {
@@ -53,12 +54,16 @@ h1 {
     
 }
 
+
 .citation {
+
     text-align: center;
     background-color: rgb(216, 186, 14);
     color: #2a3136;
     padding: 2%;
+    margin: 2% auto;
     font-size: 26px;
+
 }
 
 #details {
@@ -106,7 +111,7 @@ footer {
     }
 
     .infoText {
-        font-size: 18px;
+        font-size: 16px;
         margin: 0 5%;
     }
 
